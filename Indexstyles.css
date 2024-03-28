@@ -1,0 +1,156 @@
+* {
+	box-sizing: border-box;
+}
+.container {
+	position: relative;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-image: url(Love-to-learn.avif);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+body {
+	font: 1.3em;
+	font-family: 'Work Sans', sans-serif;
+	background-color: rgb(255, 255, 255);
+}
+#overlay {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: rgb(85, 64, 56);
+}
+nav {
+	margin: auto;
+	padding: 1% 0;
+	margin-right: 0;
+}
+nav >ul {
+	text-align: right;
+}
+ul>li {
+	display: inline;
+	padding-right: 2rem;
+}
+ul>li>a {
+	text-transform: uppercase;
+	padding: 12px;
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.733);
+}
+ul>li>a:hover {
+	box-shadow: 0 0 0 0.625em rgba(0, 0, 0 , 0.1), insert 0 0 0.625em rgba(255, 255, 255, 0.6);
+	background-color:rgba(107, 93, 84, 0.678);
+	color: rgba(0, 35, 122, 0.7);
+}
+#slogan {
+	width:100%;
+	text-align: center;
+	font-size: xx-large;
+	font-weight: bolder;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	background-image: url(graduants.jpg);
+	background-attachment: fixed;
+	background-repeat: repeat-x;
+	color: black;
+	padding-top: 12px;
+	padding-bottom: 10px;
+}
+#scholar {
+display: flex;
+flex-direction: column;
+text-align: center;
+font-size: xx-large;
+font-weight: bolder;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#scholar>h3 {
+	color: rgb(88, 60, 60);
+}
+img {
+	position:relative;
+}
+.scholar {
+	background-image: url(Students-in-school.jpg);
+  background-attachment: fixed;
+  background-repeat: repeat-x;
+  color: rgb(255, 255, 255);
+	padding-top: 20px;
+	padding-bottom: 12px;
+}
+#activities {
+	display: flex;
+  flex-direction: column;
+	justify-content: space-around;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bolder;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#activities>h2 {
+	color: rgb(88, 60, 60);
+}
+#music {
+	color: black;
+	font-size: xx-large;
+	padding-top: 8px;
+	padding-bottom: 10px;
+}
+#music>h3 {
+	color: black
+}
+#writing {
+	color: black;
+	font-size: xx-large;
+	padding-top: 8px;
+	padding-bottom: 10px;
+}
+#writing>h3 {
+	color: black
+}
+#dance {
+	color: black;
+	font-size: xx-large;
+	padding-top: 8px;
+	padding-bottom: 10px;
+}
+#dance>h3 {
+	color: black
+}
+#classes {
+	display: flex;
+  flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+  text-align: justify;
+  font-size: x-large;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	background-image: url(classe-wallpaper.jpg);
+	color: white;
+}
+#classes>h3 {
+	color: rgb(15, 11, 11);
+	font-size: xx-large;
+}
+#contacts {
+	text-align: justify;
+	background-color: #554038;
+	color: white;
+	padding-top: 6px;
+	padding-bottom: 5px;
+}
+#contacts>h3 {
+	text-align: center;
+}
+.contacts {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+  text-align: justify;
+  font-size: x-large;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
