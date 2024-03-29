@@ -24,7 +24,7 @@ body {
 }
 nav {
 	margin: auto;
-	padding: 1% 0;
+	padding: 4px 0;
 	margin-right: 0;
 }
 nav >ul {
@@ -45,8 +45,21 @@ ul>li>a:hover {
 	background-color:rgba(107, 93, 84, 0.678);
 	color: rgba(0, 35, 122, 0.7);
 }
+#home {
+	text-align: center;
+	font-size: xx-large;
+	padding: 2%;
+	background-image: url(ho.jpg);
+}
+#home>h1 {
+	color: #df470b;
+}
+#home>p {
+	font-size: xx-large;
+}
 #slogan {
 	width:100%;
+	height: 45rem;
 	text-align: center;
 	font-size: xx-large;
 	font-weight: bolder;
@@ -54,7 +67,7 @@ ul>li>a:hover {
 	background-image: url(graduants.jpg);
 	background-attachment: fixed;
 	background-repeat: repeat-x;
-	color: black;
+	color: rgb(255, 255, 255);
 	padding-top: 12px;
 	padding-bottom: 10px;
 }
@@ -135,6 +148,9 @@ img {
 	color: rgb(15, 11, 11);
 	font-size: xx-large;
 }
+#classes>p {
+	margin: 12x;
+}
 #contacts {
 	text-align: justify;
 	background-color: #554038;
@@ -153,4 +169,16 @@ img {
   font-size: x-large;
   font-weight: bold;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+.contact>ul {
+	display: flex;
+	flex-direction: column;
+}
+.inquiry {
+	text-align:justify;
+}
+#send {
+	padding: 12px;
+	background-color: rgb(28, 109, 28);
+	border-radius: 4px;
 }

@@ -5,26 +5,35 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>SHOFCO SCHOOL WEB</title>
 	<link rel="stylesheet" href="Indexstyles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 	<section class="container">
 		<div id="overlay">
 		  <nav >
 			  <ul>
-				  <li><a href="#Welcome">Welcome</a></li>
-				  <li><a href="#School  Life">School  Life</a></li>
-			 	  <li><a href="#Clubs & Activities">Clubs & Activities</a></li>
-				  <li><a href="#Contacts">Contacts</a></li>
+				  <li><a href="#home">Welcome</a></li>
+				  <li><a href="#scholar">School  Life</a></li>
+			 	  <li><a href="#activities">Clubs & Activities</a></li>
+				  <li><a href="#contacts">Contacts</a></li>
 			  </ul>
 		  </nav>
 	  </div>
+	</section>
+	<section id="home">
+		<h1>Welcome to SHOFCO School.</h1>
+		<div>
+			<p>A place where children are nartured through impartation of useful knowledge both to individual and society at large.</p>
+		</div>
 	</section>
 		<section id="slogan">
 			<h2>Knowledge is power. There is no power for change greater than a community discovering what it cares about.</h2>
 		</section>
 		<section id="scholar">
 			<h3>School Life</h3>
-			<img src="Student-in-labarotory.jpg" alt="Students-in-school">
+			<ul>
+				<li><img src="Student-in-labarotory.jpg" alt="Students-in-school"> <img src="studenrt-in-class.jpeg" alt="studenrt-in-class"> <img src="students-learning.webp" alt="students-learning"> <img src="students-couching.jpeg" alt="students-couching"> <img src="students-couching2.jpeg" alt="students-couching2"> <img src="students-learning3.webp" alt="students-learning3"> <img src="students-in-pe.jpeg" alt=""students-in> <img src="student-class-writing.jpg" alt="student-class-writing"></li>
+			</ul>
 			<div class="scholar">
 			<p>Students at SHOFCO Community thrive on consistency and schedules, therefore, each day follows a fairly regular schedule.</p>
 			<p>The students' day typically begins at 8:00 am and concludes at 3:45 pm, with the exception of Wednesday when we dismiss at 1:00 pm for teacher development.</p>
@@ -81,24 +90,24 @@
 		<section id="contacts">
 			<h3>SHOFCO School Contact Information</h3>
 			<div class="contacts">
-			<div>
+			<div class="contact">
 			  <ul>
-				 <li>SHOFCO School</li>
+				 <li>School</li>
 				 <li>Home</li>
 				 <li>SchoolLife</li>
 				 <li>Clubs&Activities</li>
 				 <li>Contacts</li>
 			  </ul>
 		  </div>
-		  <div>
+		  <div class="contact">
 			  <ul>
 				 <li>Contacts</li>
-				 <li>Tel no:+254790711288</li>
-				 <li>P.O Box 8303-00100</li>
-				 <li>Email:shofcoschool@gmail.org.ke</li>
+				 <li><i class="fa-solid fa-phone"></i>  Tel no:+254790711288</li>
+				 <li><i class="fa-solid fa-address-book"></i>  P.O Box 8303-00100</li>
+				 <li><i class="fa-solid fa-envelope"></i>Email:shofcoschool@gmail.org.ke</li>
 			  </ul>
 		  </div>
-			<div>
+			<div class="contact">
 			  <ul>
 				 <li>Features</li>
 				 <li>Blog</li>
@@ -109,11 +118,11 @@
 			<div>
 				<ul>
 				 <h3>Inqury</h3>
-				 <form action="https://www.shofcoschool.com/inqury.php" method="post">
+				 <form action="https://www.shofcoschool.com/inqury.php" method="post" class="inquiry" >
 					 <input type="text" placeholder="Name(require)" required>
 					 <input type="text" placeholder="Email optional optional">
 					 <textarea name="Enter your inquiry here(Required, can't send empty form)" id="" cols="30" rows="10" required></textarea>
-					 <input type="submit" value="SEND">
+					 <input type="submit" id="send" value="SEND">
 				  </form>
 				</ul>
 		  </div>
