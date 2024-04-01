@@ -10,12 +10,19 @@
 	background-image: url(Love-to-learn.avif);
 	background-repeat: no-repeat;
 	background-size: cover;
+	z-index: 1;
 }
 body {
 	font: 1.3em;
 	font-family: 'Work Sans', sans-serif;
 	background-color: rgb(255, 255, 255);
 }
+@media screen and (min-width: 768px) {
+	body {
+		overflow-y: auto;
+	}
+}
+
 #overlay {
 	position: fixed;
 	top: 0;
@@ -46,18 +53,29 @@ ul>li>a:hover {
 	color: rgba(0, 35, 122, 0.7);
 }
 #home {
+	position: relative;
 	text-align: center;
 	font-size: xx-large;
 	padding: 2%;
 	background-image: url(ho.jpg);
 }
 #home>h1 {
-	color: #df470b;
+	color: black;
+	font-size: 150px;
+	font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+	flex-wrap: wrap;
+	border: 1px hidden rgb(221, 163, 141);
+	background-color: hsl(0, 10%, 92%);
 }
 #home>p {
-	font-size: xx-large;
+	font-size: 120px;
+	font-weight: bold;
 }
 #slogan {
+	position: absolute;
+	top: 100%x;
+	right: 0px;
 	width:100%;
 	height: 45rem;
 	text-align: center;
@@ -158,6 +176,22 @@ img {
 	padding-top: 6px;
 	padding-bottom: 5px;
 }
+@media screen and (min-width: 768px)  {
+	#contacts {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		max-width: 100%;
+	}
+}
+@media screen and (max-width: 998px)  {
+	#contacts {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		max-width: 100%;
+	}
+}
 #contacts>h3 {
 	text-align: center;
 }
@@ -165,6 +199,7 @@ img {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
+	flex-wrap: wrap;
   text-align: justify;
   font-size: x-large;
   font-weight: bold;
@@ -176,6 +211,7 @@ img {
 }
 .inquiry {
 	text-align:justify;
+	overflow-x: hidden;
 }
 #send {
 	padding: 12px;
